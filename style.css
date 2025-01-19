@@ -301,7 +301,9 @@ button{
     li{
         font-size: 17px;
         color: gray;
+        cursor: pointer;
     }
+    
 }
 .div i{
     /* height: 200px; */
@@ -322,6 +324,10 @@ footer{
     p{
         color: gray;
     }
-    
+    li:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        
+    }
 }
 
